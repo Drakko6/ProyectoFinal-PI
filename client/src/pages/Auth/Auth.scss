@@ -1,0 +1,48 @@
+@import "../../scss/index.scss";
+
+.auth {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  // background-color: $background-grey-light;
+  // background-color: #39304a;
+  // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATElEQVQoU2O0NPD6z0AEYCRZ4Sr7G2Bzww5qMCCzYZbBTSSo8HG+EtiNIJPQAbJmRmSFMAlsTsCwGtlUZFvACpFNQrcepph4zxAbjgDL2zX/l5zmTwAAAABJRU5ErkJggg==);
+  // background-repeat: repeat;
+
+  img {
+    width: 200px;
+    // background-color: #39304a;
+    // box-shadow: 10px 5px 5px gray;
+  }
+
+  .container-form {
+    width: 400px;
+    background-color: $background-light;
+    padding: 20px 50px;
+    border: 1px solid $border-grey;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .change-form {
+    margin-top: 10px;
+    width: 400px;
+    background-color: $background-light;
+    padding: 20px 40px;
+    border: 1px solid $border-grey;
+    text-align: center;
+    border-radius: 5px;
+
+    span {
+      color: $action;
+      font-weight: bold;
+      margin-left: 5px;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}

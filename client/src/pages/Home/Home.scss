@@ -1,0 +1,29 @@
+.home {
+  &__left {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  &__right {
+  }
+}
+
+.home-movil {
+  margin: 10px !important;
+
+  &_top {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .users-not-followeds {
+    margin-top: 10px;
+    display: block;
+    overflow-x: scroll;
+
+    &__user {
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../../../scss/index.scss";
+
+.actions {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+  i {
+    font-size: 20px !important;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .actions-inactive {
+    i {
+      font-size: 20px !important;
+
+      &:hover {
+        cursor: default !important;
+      }
+    }
+  }
+
+  .active {
+    color: #f2711c;
+  }
+
+  .inactive {
+    color: gray;
+  }
+}

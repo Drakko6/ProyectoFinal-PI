@@ -1,0 +1,19 @@
+@import "../../../scss/index.scss";
+
+.users-not-followeds {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+
+  h3 {
+    color: #5296a5;
+  }
+  &__user {
+    margin-top: 20px;
+    color: $font-dark;
+
+    img {
+      margin-right: 15px !important;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../../scss/index.scss";
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+
+  .ui.button {
+    background-color: $background-light;
+    border-bottom: 1px solid $border-grey;
+    padding: 18px 0; //18 por arriba abajo, 0 a los lados
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .delete {
+    color: $danger !important;
+  }
+}

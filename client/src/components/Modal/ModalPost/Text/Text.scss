@@ -1,0 +1,11 @@
+@import "../../../../scss/index.scss";
+
+.text {
+  height: 20px;
+  p {
+    span {
+      font-weight: bold;
+      padding: 5px;
+    }
+  }
+}

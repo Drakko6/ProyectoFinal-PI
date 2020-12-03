@@ -1,0 +1,27 @@
+@import "../../../scss/index.scss";
+
+.users-not-followeds-movil {
+  display: flex;
+  // flex-direction: column;
+  height: 80px;
+  width: 100%;
+  overflow-x: scroll;
+
+  &__user {
+    margin-top: 0px;
+    margin-right: 20px;
+    color: $font-dark;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      // margin-right: 15px !important;
+      margin-left: 15px;
+    }
+    span {
+      display: block;
+      margin-left: 10px;
+    }
+  }
+}

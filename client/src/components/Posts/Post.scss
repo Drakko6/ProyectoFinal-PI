@@ -1,0 +1,34 @@
+@import "../../scss/index.scss";
+
+.posts {
+  margin-top: 30px;
+  padding-left: 25px;
+  // padding-right: 10px;
+
+  // .ui.grid {
+  //   margin: 0 !important;
+  // }
+  // .grid-posts {
+  //   // margin-left: 10px !important;
+  //   width: 100%;
+  // }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .post-movil {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 !important;
+  }
+
+  .post-margin {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 !important;
+  }
+}

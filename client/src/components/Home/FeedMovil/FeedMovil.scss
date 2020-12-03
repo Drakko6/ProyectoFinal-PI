@@ -1,0 +1,59 @@
+@import "../../../scss/index.scss";
+
+.feed-movil {
+  padding-top: 10px;
+  margin-left: 0px;
+  width: 100%;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__box {
+    margin-bottom: 20px;
+    border: 1px solid $border-grey;
+    background-color: white;
+    margin-right: 10px;
+
+    &-user {
+      background-color: $background-light;
+      padding: 15px !important;
+      color: $font-dark;
+
+      img {
+        margin-right: 15px !important;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    &-photo {
+      height: 300px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 0.95;
+      }
+    }
+
+    &-actions {
+      padding: 5px 5px;
+
+      i {
+        margin-right: 10px !important;
+      }
+    }
+
+    &-form {
+      > form {
+        position: relative !important;
+      }
+    }
+  }
+}

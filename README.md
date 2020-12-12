@@ -13,7 +13,7 @@ Tonatiuh Tamayo<br />
 ### Instrucciones de instalación
 Para instalar ambos sólo es hacer necesario hacer npm install en las carpetas de los proyectos. (y tener node instalado) <br />
 
-Para iniciar el servidor es con npm dev o yarn dev <br />
+Para iniciar el servidor es con npm run dev o yarn dev <br />
 
-Para iniciar el cliente es con npm start o yarn start <br />
+Para iniciar el cliente es con npm run start o yarn start <br />
 
